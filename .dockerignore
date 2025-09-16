@@ -1,0 +1,54 @@
+# Python Bytecode / Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+.venv/
+ENV/
+env/
+
+# Distribution / Packaging
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+wheels/
+
+# Logs / Coverage / Tests
+*.log
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+pytest_cache/
+*.cover
+
+# Django specific
+db.sqlite3
+media/
+staticfiles/
+
+# Installer Logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Git / Docker internals
+.git
+.gitignore
+.dockerignore
+Dockerfile
