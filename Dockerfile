@@ -2,8 +2,6 @@ FROM python:3.7-slim as builder
 
 WORKDIR /app
 
-RUN apt-get update && apt-get install -y build-essential && rm -rf /var/lib/apt/lists/*
-
 COPY requirements.txt .
 RUN pip install --user --no-cache-dir -r requirements.txt
 
